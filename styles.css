@@ -1,0 +1,76 @@
+.container-fluid {
+  background-color: #ededed;
+  height: 100%;
+  width: 100%;
+  padding-right: 50px !important;
+  padding-left: 50px !important;
+}
+  
+.inner-container {
+  height: 100%;
+  background-color: white;
+  padding-bottom: 2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.card-3 {
+    padding: 3rem;    
+}
+  
+
+img {
+    position: relative;
+    z-index: 1;
+}
+ 
+.text-box {
+    position:absolute;    
+    z-index: 2;   
+    bottom: 0px;
+    right: 15px;
+    left: 15px;
+    background-color: #0a304e;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;  
+   }
+  
+  .bottom-left {
+      text-align: left;
+      font-size: 20px;  
+  }
+
+  .hidden-text .text {
+     display: none;     
+  }
+  
+  .text {
+    display: block;
+    font-size: 14px;
+    padding-right: 2.5rem;
+    animation: mymove .5s;
+  }
+  @keyframes mymove {
+    from {height: 3rem;}
+    to {height: 4rem;}
+  }
+
+  .arrow {
+    position:absolute;  
+    right: 0; 
+    top: 0;
+    bottom: 0; 
+    background-color:rgb(1, 1, 26);
+    padding:.5rem;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color:white;  
+  }
+
+  
